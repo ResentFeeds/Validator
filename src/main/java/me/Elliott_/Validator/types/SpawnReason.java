@@ -1,0 +1,30 @@
+package me.Elliott_.Validator.types;
+
+public enum SpawnReason {
+
+    NATURAL,
+    JOCKEY,
+    CHUNK_GEN,
+    SPAWNER,
+    EGG,
+    SPAWNER_EGG,
+    LIGHTNING,
+    BED,
+    BUILD_SNOWMAN,
+    BUILD_IRONGOLEM,
+    BUILD_WITHER,
+    VILLAGE_DEFENSE,
+    VILLAGE_INVASION,
+    BREEDING,
+    SLIME_SPLIT,
+    REINFORCEMENTS,
+    NETHER_PORTAL,
+    DISPENSE_EGG,
+    INFECTION,
+    CURED,
+    OCELOT_BABY,
+    SILVERFISH_BLOCK,
+    MOUNT,
+    CUSTOM,
+    DEFAULT
+}

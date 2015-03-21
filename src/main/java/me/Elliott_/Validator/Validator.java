@@ -13,9 +13,11 @@ import java.io.IOException;
 
 public class Validator {
 
+    private static Document document;
+
     public static void main(String[] args) {
         SAXBuilder saxBuilder = new SAXBuilder();
-        Document document = null;
+        document = null;
         try {
             document = saxBuilder.build(new File("test.xml"));
         } catch (JDOMException | IOException e) {
